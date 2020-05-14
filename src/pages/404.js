@@ -11,6 +11,9 @@ function FourOFour() {
       <Link to="/" className={"subtitle"}>
         Take me home
       </Link>
+      <Link to="/easter-egg" className={"sub-subtitle"}>
+        Take me... somewhere else.
+      </Link>
     </div>
   )
 }
