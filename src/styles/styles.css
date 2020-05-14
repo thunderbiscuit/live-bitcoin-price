@@ -17,3 +17,17 @@ body {
   font-size: 100px;
   align-self: center;
 }
+
+.flex-column {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+}
+
+.subtitle {
+  font-family: "Share Tech Mono";
+  font-weight: 400;
+}
