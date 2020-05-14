@@ -1,6 +1,8 @@
 import React from "react"
 import { Link } from "gatsby"
 
+import "../styles/styles.css"
+
 function FourOFour() {
   return (
     <div className={"flex-column"}>
