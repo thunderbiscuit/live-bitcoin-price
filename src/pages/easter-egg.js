@@ -10,7 +10,8 @@ class Doge extends React.Component {
       .then(response => response.json())
       .then(data => {
         const price = data.result.XDGUSD.c[0]
-        document.getElementById("current-price").innerText = "$ " + price
+        document.getElementById("current-easter-egg-price").innerText =
+          "$ " + price
       })
   }
 
@@ -31,7 +32,7 @@ class Doge extends React.Component {
           <img src="/images/doge.png" alt="doge" />
         </figure>
         <p
-          id={"current-price"}
+          id={"current-easter-egg-price"}
           className={"btc-ticker"}
           style={{ marginTop: "0em" }}
         ></p>
