@@ -1,0 +1,22 @@
+{
+  "name": "bitcoin-live-price",
+  "private": true,
+  "description": "The simplest bitcoin ticker on the internets!",
+  "version": "0.1.0",
+  "license": "MIT",
+  "dependencies": {
+    "gatsby": "^2.21.22",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  },
+  "devDependencies": {
+    "prettier": "2.0.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "bugs": {
+    "url": ""
+  }
+}
