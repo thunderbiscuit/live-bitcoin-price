@@ -63,14 +63,16 @@ img {
 }
 
 .slide-out-right {
-  -webkit-animation: slide-out-right 0.5s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
-  animation: slide-out-right 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+  /* -webkit-animation: slide-out-right 0.5s cubic-bezier(0.55, 0.085, 0.68, 0.53) both; */
+  /* animation: slide-out-right 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both; */
+  animation: slide-out-right 1s ease both;
   animation-delay: 8s;
 }
 
 .slide-in-left {
-  -webkit-animation: slide-in-left 0.5s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
-  animation: slide-in-left 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+  /* -webkit-animation: slide-in-left 0.5s cubic-bezier(0.55, 0.085, 0.68, 0.53) both; */
+  /* animation: slide-in-left 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both; */
+  animation: slide-in-left 1s ease both;
   animation-delay: 2s;
 }
 
