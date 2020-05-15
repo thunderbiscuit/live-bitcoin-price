@@ -181,7 +181,7 @@ img {
   /* -webkit-animation: slide-in-left 0.5s cubic-bezier(0.55, 0.085, 0.68, 0.53) both; */
   /* animation: slide-in-left 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both; */
   animation: slide-in-left 1s ease both;
-  animation-delay: 1s;
+  animation-delay: 1.5s;
 }
 
 /* 404 */
