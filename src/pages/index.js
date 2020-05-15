@@ -36,7 +36,6 @@ class LandingPage extends React.Component {
   render() {
     return (
       <Layout>
-        {/* <figure className="about-link fade-in"> */}
         <div class="about-link slide-in-left">
           <Link to="/about/">
             <img src="/images/settings-outline.svg" alt="about page" className="slide-out-right" />
