@@ -8,7 +8,7 @@ const Layout = ({ children }) => {
         <title>Live Bitcoin Price</title>
         <meta name="description" content="The simplest bitcoin price ticker on the internets!" />
         <meta property="og:title" content="Bitcoin Price Ticker" />
-        <meta property="og:image" content="https://live-bitcoin-price/images/socialmedia.png" />
+        <meta property="og:image" content="https://live-bitcoin-price.com/images/socialmedia.png" />
         <meta property="og:url" content="https://live-bitcoin-price.com/" />
         <meta
           property="og:description"
@@ -21,7 +21,10 @@ const Layout = ({ children }) => {
           name="twitter:description"
           content="The simplest bitcoin price ticker on the internets!"
         />
-        <meta name="twitter:image" content="https://live-bitcoin-price/images/socialmedia.png" />
+        <meta
+          name="twitter:image"
+          content="https://live-bitcoin-price.com/images/socialmedia.png"
+        />
         <script
           async
           defer
