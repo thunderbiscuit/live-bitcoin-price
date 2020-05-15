@@ -40,7 +40,7 @@
       // example: https://api.kraken.com/0/public/Ticker?pair=XXBTZUSD
 
       // first call
-      fetch("https://api.kraken.com/0/public/Ticker?pair=XXBTZUSD")
+      fetch("https://cors-anywhere.herokuapp.com/https://api.kraken.com/0/public/Ticker?pair=XXBTZUSD")
         .then((response) => response.json())
         .then((data) => {
           console.log(data)
@@ -54,7 +54,7 @@
 
       // query back the API every 5 seconds
       setInterval(function () {
-        fetch("https://api.kraken.com/0/public/Ticker?pair=XXBTZUSD")
+        fetch("https://cors-anywhere.herokuapp.com/https://api.kraken.com/0/public/Ticker?pair=XXBTZUSD")
           .then((response) => response.json())
           .then((data) => {
             console.log(data)
