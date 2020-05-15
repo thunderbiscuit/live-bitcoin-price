@@ -30,7 +30,7 @@ function About() {
             <h3 className="card-titles">Download and Modify!</h3>
             <p>
               The code for this website is{" "}
-              <a href="https://github.com/thunderBiscuit/live-bitcoin-price"></a> open source, and I
+              <a href="https://github.com/thunderBiscuit/live-bitcoin-price">open source</a>, and I
               maintain a simpler version of it (without the about page and the 404) in a github repo{" "}
               <a href="https://github.com/thunderBiscuit/live-btc-price">here</a>. You can download
               the html file{" "}
