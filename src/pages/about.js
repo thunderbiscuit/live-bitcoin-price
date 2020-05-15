@@ -29,8 +29,9 @@ function About() {
           <div className="info-box-1">
             <h3 className="card-titles">Download and Modify!</h3>
             <p>
-              The code for this website is open source, and I maintain a simpler version of it
-              (without the about page and the 404) in a github repo{" "}
+              The code for this website is{" "}
+              <a href="https://github.com/thunderBiscuit/live-bitcoin-price"></a> open source, and I
+              maintain a simpler version of it (without the about page and the 404) in a github repo{" "}
               <a href="https://github.com/thunderBiscuit/live-btc-price">here</a>. You can download
               the html file{" "}
               <a href="/live-btc-price.txt" download>
@@ -65,10 +66,9 @@ function About() {
               >
                 github
               </a>
-              .
+              , and I have a small blog <a href="https://thunderbiscuit.com/">here</a>.
             </p>{" "}
-            I have a small blog <a href="https://thunderbiscuit.com/">here</a>. I spend most of my
-            free time thinking about and working on the bitcoin project.
+            I spend most of my free time thinking about and working on the bitcoin project.
           </div>
           <div className="info-box-3">
             <h3 className="card-titles">Learn about Bitcoin</h3>
