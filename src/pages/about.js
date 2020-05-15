@@ -33,7 +33,7 @@ function About() {
               (without the about page and the 404) in a gihub repo{" "}
               <a href="https://github.com/thunderBiscuit/live-btc-price">here</a>. You can download
               the html file{" "}
-              <a href="/hello-world.txt" download>
+              <a href="/live-btc-price.txt" download>
                 right here
               </a>{" "}
               if you want, and run it locally so you don't need to ping this website. Just rename
