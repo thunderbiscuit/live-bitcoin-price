@@ -33,7 +33,7 @@ a {
   opacity: 0;
   animation-name: fadeIn;
   animation-delay: 1s;
-  animation-duration: 2s;
+  animation-duration: 1s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
 }
@@ -181,7 +181,7 @@ img {
   /* -webkit-animation: slide-in-left 0.5s cubic-bezier(0.55, 0.085, 0.68, 0.53) both; */
   /* animation: slide-in-left 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both; */
   animation: slide-in-left 1s ease both;
-  animation-delay: 2s;
+  animation-delay: 1s;
 }
 
 /* 404 */
@@ -246,8 +246,8 @@ img {
 
 @-webkit-keyframes slide-in-left {
   0% {
-    -webkit-transform: translateX(-70px);
-    transform: translateX(-70px);
+    -webkit-transform: translateX(-40px);
+    transform: translateX(-40px);
     opacity: 1;
   }
   100% {
@@ -258,8 +258,8 @@ img {
 }
 @keyframes slide-in-left {
   0% {
-    -webkit-transform: translateX(-70px);
-    transform: translateX(-70px);
+    -webkit-transform: translateX(-40px);
+    transform: translateX(-40px);
     opacity: 0;
   }
   100% {
