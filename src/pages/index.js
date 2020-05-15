@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 
@@ -13,7 +14,12 @@ class LandingPage extends React.Component {
         const price = data.result.XXBTZUSD.c[0]
         const pricerounded = Math.floor(price)
         console.log("latest price: ", pricerounded)
-        document.getElementById("current-price").innerText = "$ " + pricerounded
+        // document.getElementById("current-price").innerText = "$ " + pricerounded
+        if (document.getElementById("current-price") !== null) {
+          document.getElementById("current-price").innerText = "$ " + pricerounded
+        } else {
+          console.log("Data fetched but nowhere to insert it")
+        }
       })
   }
 
@@ -30,6 +36,12 @@ class LandingPage extends React.Component {
   render() {
     return (
       <Layout>
+        {/* <figure className="about-link fade-in"> */}
+        <div class="about-link slide-in-left">
+          <Link to="/about/">
+            <img src="/images/settings-outline.svg" alt="about page" className="slide-out-right" />
+          </Link>
+        </div>
         <p id={"current-price"} className={"btc-ticker"}></p>
       </Layout>
     )
