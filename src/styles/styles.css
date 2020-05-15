@@ -23,7 +23,6 @@ body {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  margin-top: 4rem;
   margin-bottom: 2rem;
 }
 
@@ -31,6 +30,8 @@ body {
   font-family: "Share Tech Mono";
   font-weight: 400;
   margin-top: 2em;
+  text-align: center;
+  line-height: 2em;
 }
 
 .sub-subtitle {
@@ -45,4 +46,38 @@ body {
 
 img {
   max-height: 300px;
+}
+
+.fade-in {
+  opacity: 0;
+  animation-name: fadeIn;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+.fade-0 {
+  animation-delay: 1s;
+}
+
+.fade-1 {
+  animation-delay: 2.5s;
+}
+
+.fade-2 {
+  animation-delay: 4s;
+}
+
+.fade-3 {
+  animation-delay: 5.5s;
+}
+
+/* animations */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
