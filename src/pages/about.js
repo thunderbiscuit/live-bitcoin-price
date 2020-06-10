@@ -13,21 +13,24 @@ function About() {
           <img src="/images/circle-right.svg" alt="ticker page" />
         </Link>
       </div>
-      <div className={"flex-column"}>
-        <div className={"flex-row"} style={{ width: "960px" }}>
-          <div className="info-box-0">
+      <div class="container" style={{ marginTop: "2rem" }}>
+        <div class="tile is-ancestor">
+          <div class="tile is-child is-6 px-4 info-box-0">
             <h3 className="card-titles">About</h3>
+            <hr />
             <p>
               This price ticker queries the Kraken API for the price of the latest trade on the
               bitcoin/USD pair every 5 seconds.
             </p>
+            <br />
             <p>
               I initially made this project in order to help someone who needed a simple web-based
               price ticker, and liked it so much I decided to register the domain.
             </p>
           </div>
-          <div className="info-box-1">
+          <div class="tile is-child is-6 px-4 info-box-1">
             <h3 className="card-titles">Download and Modify!</h3>
+            <hr />
             <p>
               The code for this website is{" "}
               <a href="https://github.com/thunderBiscuit/live-bitcoin-price">open source</a>, and I
@@ -39,14 +42,17 @@ function About() {
               </a>{" "}
               if you want, and run it locally so you don't need to ping this website. Just rename
               the file from .txt to .html and double-click.
-              <p>
-                Feel free to download and modify/adjust it to your needs, and if you do end up
-                building something cool let me know on twitter!
-              </p>
+            </p>
+            <p>
+              Feel free to download and modify/adjust it to your needs, and if you do end up
+              building something cool let me know on twitter!
             </p>
           </div>
-          <div className="info-box-2">
+        </div>
+        <div class="tile is-ancestor">
+          <div class="tile is-child is-6 px-4 info-box-2">
             <h3 className="card-titles info-1">Me</h3>
+            <hr />
             <p>
               I'm thunderbiscuit. You can find me on{" "}
               <a
@@ -67,11 +73,13 @@ function About() {
                 github
               </a>
               , and I have a small blog <a href="https://thunderbiscuit.com/">here</a>.
-            </p>{" "}
-            I spend most of my free time thinking about and working on the bitcoin project.
+            </p>
+            <br />
+            <p>I spend most of my free time thinking about and working on the bitcoin project.</p>
           </div>
-          <div className="info-box-3">
+          <div class="tile is-child is-6 px-4 info-box-3">
             <h3 className="card-titles">Learn about Bitcoin</h3>
+            <hr />
             <p>Learn about bitcoin.</p>
           </div>
         </div>

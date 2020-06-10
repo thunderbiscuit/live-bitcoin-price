@@ -10,18 +10,37 @@ a {
   font-weight: 400;
 }
 
-.main {
+hr {
+  height: 2px;
+  margin: 0.2rem 0 1rem 0;
+}
+
+.container-backup {
+  margin: 0 auto;
+  position: relative;
+  width: auto;
+  max-width: none;
+  padding-left: 32px;
+  padding-right: 32px;
+  width: 100%;
+}
+
+.container {
+  max-width: 960px;
+}
+/* .main {
   width: 100%;
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-}
+} */
 
 .btc-ticker {
   font-family: "Share Tech Mono";
   font-size: 100px;
   align-self: center;
+  color: #363636;
 }
 
 .about-link {
@@ -52,34 +71,14 @@ a {
 .flex-row {
   flex-wrap: wrap;
   display: flex;
-  align-items: center;
   justify-content: space-between;
   flex-direction: row;
 }
 
-.info-box {
-  /* border: 2px solid #ababab; */
-  border-radius: 12px;
-  width: 400px;
-  height: 300px;
-  margin: 2em;
-  font-family: "Jost";
-  font-weight: 300;
-  line-height: 1.5;
-  font-size: 18px;
-  opacity: 0;
-  animation-name: slide-in-right;
-  animation-duration: 2s;
-  animation-iteration-count: 1;
-  animation-fill-mode: forwards;
-}
-
 .info-box-0 {
-  /* border: 2px solid #ababab; */
-  border-radius: 12px;
-  width: 400px;
-  height: 300px;
+  /* min-height: 300px; */
   margin: 2em;
+  padding: 0 1rem;
   font-family: "Jost";
   font-weight: 300;
   line-height: 1.5;
@@ -92,10 +91,7 @@ a {
   animation-fill-mode: forwards;
 }
 .info-box-1 {
-  /* border: 2px solid #ababab; */
-  border-radius: 12px;
-  width: 400px;
-  height: 300px;
+  /* min-height: 300px; */
   margin: 2em;
   font-family: "Jost";
   font-weight: 300;
@@ -109,10 +105,7 @@ a {
   animation-fill-mode: forwards;
 }
 .info-box-2 {
-  /* border: 2px solid #ababab; */
-  border-radius: 12px;
-  width: 400px;
-  height: 300px;
+  /* min-height: 300px; */
   margin: 2em;
   font-family: "Jost";
   font-weight: 300;
@@ -126,10 +119,7 @@ a {
   animation-fill-mode: forwards;
 }
 .info-box-3 {
-  /* border: 2px solid #ababab; */
-  border-radius: 12px;
-  width: 400px;
-  height: 300px;
+  /* min-height: 300px; */
   margin: 2em;
   font-family: "Jost";
   font-weight: 300;
@@ -141,6 +131,37 @@ a {
   animation-duration: 1s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
+}
+
+.tile.is-child.info-box-2 {
+  margin-top: 3rem !important;
+}
+.tile.is-child.info-box-3 {
+  margin-top: 3rem !important;
+}
+
+@media screen and (min-width: 760px) {
+  .info-box-0 {
+    min-height: 300px;
+  }
+  .info-box-1 {
+    min-height: 300px;
+    margin-top: 2rem;
+  }
+  .info-box-2 {
+    min-height: 300px;
+    margin-top: 2rem;
+  }
+  .info-box-3 {
+    min-height: 300px;
+    margin-top: 2rem;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .tile.is-child.info-box-1 {
+    margin-top: 3rem !important;
+  }
 }
 
 .card-titles {

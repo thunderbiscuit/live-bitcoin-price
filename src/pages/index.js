@@ -36,9 +36,9 @@ class LandingPage extends React.Component {
   render() {
     return (
       <Layout>
-        <div class="about-link slide-in-left">
+        <div className="about-link slide-in-left">
           <Link to="/about/">
-            <img src="/images/settings-outline.svg" alt="about page" className="" />
+            <img src="/images/settings-outline.svg" alt="about page" />
           </Link>
         </div>
         <p id={"current-price"} className={"btc-ticker"}></p>

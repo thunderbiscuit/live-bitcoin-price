@@ -1,6 +1,8 @@
 import React from "react"
 import { Helmet } from "react-helmet"
 
+import "../styles/bulma.css"
+
 const Layout = ({ children }) => {
   return (
     <>
@@ -32,7 +34,7 @@ const Layout = ({ children }) => {
           src="https://plausible.io/js/plausible.js"
         ></script>
       </Helmet>
-      <div className={"main"}>{children}</div>
+      <div className={"section"}>{children}</div>
     </>
   )
 }
