@@ -43,6 +43,7 @@ function About() {
               if you want, and run it locally so you don't need to ping this website. Just rename
               the file from .txt to .html and double-click.
             </p>
+            <br />
             <p>
               Feel free to download and modify/adjust it to your needs, and if you do end up
               building something cool let me know on twitter!
