@@ -41,7 +41,7 @@ class LandingPage extends React.Component {
             <img src="/images/settings-outline.svg" alt="about page" />
           </Link>
         </div>
-        <div class="container main" style={{ padding: "0" }}>
+        <div class="container main" style={{ margin: "-3rem auto" }}>
           <p id={"current-price"} className={"btc-ticker"}></p>
         </div>
       </Layout>
