@@ -28,12 +28,9 @@ function About() {
             <hr />
             <p>
               The code for this website is{" "}
-              <a href="https://github.com/thunderBiscuit/live-bitcoin-price">open source</a>, and I
-              maintain a simpler version of it (without the about page and the 404) in a github repo{" "}
-              <a href="https://github.com/thunderBiscuit/live-btc-price/tree/onefile">here</a>. You
-              can download the single html file there if you want, and run it locally so you don't
-              need to ping this website. An example use case for this would be a Raspberry Pi with a
-              screen displaying the price.
+              <a href="https://github.com/thunderBiscuit/live-bitcoin-price" target="_blank" rel="noreferrer">open source</a>, and I
+              maintain a simpler version of it (with <em>just</em> the ticker, without the about page and the 404) in a 74 lines GitHub gist{" "}
+              <a href="https://gist.github.com/thunderbiscuit/9ad42ae41972f08f0d362c23909879ed" target="_blank" rel="noreferrer">here</a>. You can download the html file there and run it locally so you don't need to ping this website. An example use case for this would be a Raspberry Pi with a screen displaying the price.
             </p>
             <br />
             <p>
@@ -70,7 +67,21 @@ function About() {
             <br />
             <p>I spend most of my free time thinking about and working on the bitcoin project.</p>
           </div>
-          <div class="tile is-child is-6 px-4 info-box-3"></div>
+          <div class="tile is-child is-6 px-4 info-box-3">
+            <h3 className="card-titles info-1">Learn Bitcoin</h3>
+            <hr />
+            <p>
+              New to bitcoin? There are many resources out there to help you learn, but here are two I like: <a href="https://www.upfolio.com/ultimate-bitcoin-guide" target="_blank" rel="noreferrer">Bitcoin Explained</a> and <a href="https://bitcoin-intro.com/" target="_blank" rel="noreferrer">bitcoin-intro.com</a>.
+            </p>
+            <br />
+            <p>
+              When you first learned about emails, you probably didn't spend too much time digging into the SMTP protocol before sending your first email. Don't make that mistake with bitcoin! Specifically, note the first two principles of <a href="https://bitcoin-intro.com/" target="_blank" rel="noreferrer">bitcoin-intro.com</a>:
+            </p>
+            <ol style={{ marginTop: "0.5rem", paddingLeft: "0.9rem" }}>
+              <li><em>Starting simply and improving is better than than not starting at all.</em></li>
+              <li><em>It’s more engaging to use tools before reading detailed explanations.</em></li>
+            </ol>
+          </div>
         </div>
       </div>
     </Layout>
