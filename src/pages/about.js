@@ -51,7 +51,7 @@ function About() {
                 rel="noopener noreferrer"
                 style={{ textDecoration: "none" }}
               >
-                twitter
+                Twitter
               </a>{" "}
               and{" "}
               <a
@@ -60,7 +60,7 @@ function About() {
                 rel="noopener noreferrer"
                 style={{ textDecoration: "none" }}
               >
-                github
+                GitHub
               </a>
               , and I have a small blog <a href="https://thunderbiscuit.com/">here</a>.
             </p>
@@ -75,7 +75,7 @@ function About() {
             </p>
             <br />
             <p>
-              When you first learned about emails, you probably didn't spend too much time digging into the SMTP protocol before sending your first email. Don't make that mistake with bitcoin! Specifically, note the first two principles of <a href="https://bitcoin-intro.com/" target="_blank" rel="noreferrer">bitcoin-intro.com</a>:
+              When you first heard about emails, you probably didn't spend too much time digging into the SMTP protocol before sending your first message. Don't make that mistake with bitcoin! Specifically, note the first two principles of <a href="https://bitcoin-intro.com/" target="_blank" rel="noreferrer">bitcoin-intro.com</a>:
             </p>
             <ol style={{ marginTop: "0.5rem", paddingLeft: "0.9rem" }}>
               <li><em>Starting simply and improving is better than than not starting at all.</em></li>
